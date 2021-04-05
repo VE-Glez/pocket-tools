@@ -2,13 +2,13 @@ import firebase from 'firebase/app';
 import 'firebase/auth';
 
 const app = firebase.initializeApp({
-  authDomain: process.env.AUTH_DOMAIN,
-  projectID: process.env.PROJECT_ID,
-  storageBucket: process.env.STORAGE_BUCKET,
-  messagingSenderId: process.env.MESSAGING_SENDER_ID,
-  appId: process.env.APP_ID,
-  measurementId: process.env.MEASUREMENT_ID,
-  apiKey: process.env.API_KEY,
+  authDomain: 'pocketools.firebaseapp.com',
+  projectID: 'pocketools',
+  storageBucket: 'pocketools.appspot.com',
+  messagingSenderId: '21023039237',
+  appId: '1:21023039237:web:d00813f45d64764a94e16c',
+  measurementId: 'G-Z5RMHRZ41N',
+  apiKey: 'AIzaSyAUDMN4ymWvkmGQm86h1VJvy7TAvpp8fF8',
 });
 
 export const auth = app.auth();
